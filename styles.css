@@ -1,7 +1,6 @@
 /* -----CSS By: Mellani Leach----- */
-
-/* ----Imported Fonts---- */
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Delius&display=swap');
+/* -----Imported Fonts----- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* ----CSS Reset---- */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -90,7 +89,7 @@ table {
   border-spacing: 0;
 }
 
-/* ----Root Variables---- */
+/* -----Root Variables----- */
 :root {
   /* Colors and fonts*/
   --black: #0D0D0D;
@@ -100,8 +99,85 @@ table {
   --orange: #EB5428;
 }
 
-/* ----Global Styles (mobile first/small)---- */
+/* -----Global Styles (mobile first/small)----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* ----Media Query (medium)---- */
+body{
+  min-width: 450px;
+  font-family: Bebas Neue;
+  background-color: var(--grey);
+}
 
-/* ----Media Query (large)---- */
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+nav a{
+  font-size: 20px;
+}
+
+nav span{
+  font-size: 20px;
+}
+
+menu li{
+  font-size: 20px;
+}
+
+#social li{
+  font-size: 20px;
+}
+
+p{
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+dd{
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+li{
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+nav{
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+input{
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+
+dt{
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+footer{
+  font-size: 20px;
+}
+
+
+/* -----Media Query (medium)----- */
+
+
+/* -----Media Query (large)----- */
