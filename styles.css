@@ -134,6 +134,7 @@ nav span{
 
 menu li{
   font-size: 20px;
+  list-style: none;
 }
 
 #social li{
@@ -158,6 +159,7 @@ li{
 nav{
   font-size: 16px;
   font-family: Montserrat;
+  z-index: -2;
 }
 
 input{
